@@ -12,10 +12,13 @@ namespace Additionneur
         {
             Console.WriteLine("Additionneur");
             Console.WriteLine("============" + Environment.NewLine);
+
             Console.Write("Saisir une valeur numérique réelle: ");
             double dblVal1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Valeur saisie : " + dblVal1.ToString());
+            Console.Write("Saisir une deuxième valeur numérique réelle: ");
+            double dblVal2 = Convert.ToDouble(Console.ReadLine());
+
             Console.Read();
         }
     }
